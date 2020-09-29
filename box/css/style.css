@@ -6,6 +6,7 @@ body {
 	color: #FFF;
 	background-color: #000;
 	position: relative;
+	overflow-x: hidden;
 }
 *,
 *:before,
@@ -200,7 +201,7 @@ img{
 	flex-wrap: wrap;
 }
 .how__item{
-	width: 200px;
+	width: 33%;
 	text-align: center;
 	margin-top: 25px;
 }
@@ -211,6 +212,7 @@ img{
 }
 .how__title{
 	width: 200px;
+	margin: 0 auto;
 }
 .contact__inner{
 	display: flex;
@@ -288,6 +290,7 @@ img{
 	}
 }
 @media (max-width: 768px) {
+
 	.how__item{
 		width: 50%;
 	}
@@ -350,6 +353,11 @@ img{
 		width: 50%;
 		height: auto;
 		display: inline-block;
+	}
+	.work__img{
+		width: 50%;
+		margin: 0 auto;
+		height: 150px;
 	}
 	.work__content p{
 		display: none;
