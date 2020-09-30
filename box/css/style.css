@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	color: #FFF;
 	background-color: #000;
@@ -16,12 +15,12 @@ body {
 h1, h2, h3, h4, h5, h6, p, span {
 	margin: 0;
 }
-img{
+img{ 
 	width: 100%;
 	height: 100%;
 }
-.section{
-	height: 100vh;
+a{
+	text-decoration: none;	
 }
 .container {
 	width: 100%;
@@ -130,35 +129,20 @@ img{
 	align-items: center;
 	text-align: center;
 }
-.container.about__inner{
-	max-width: none;
-	width: 100%;
-}
-.about__head{
-	height: 40vh;
-}
-.about__footer{
-	height: 10vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 .about__inner {
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
 }
 .about__item {
 	width: 25%;
-	height: 50vh;
+	height: 300px;
 	position: relative;
-	overflow: hidden;
 	z-index: 1;
 	border: 1px solid #000;
 }
 .about__content{
 	width: 100%;
-	height: inherit;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -176,7 +160,6 @@ img{
 .about__description{
 	width: 200px;
 	text-align: center;
-	font-weight: 500;
 }
 .work__item{
 	height: 250px;
@@ -210,25 +193,31 @@ img{
 	width: 100px;
 	height: 100px;
 }
-.how__title{
+.title--h3{
 	width: 200px;
-	margin: 0 auto;
+	margin: 10px auto;
+
 }
 .contact__inner{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 50px;
+	padding-bottom: 100px;	
 }
-.contact__item{
-	width: 150px ;
+.contact__link{
 	text-align: center;	
-	margin: 25px 0;
 }
-.contact__img{
-	display: inline-block;	
+.contact__col{
+	width: 150px;
+}
+.contact__link img{	
 	width: 30px;
 	height: 30px;
+}
+.contact__content{
+	margin: 5px 0;			
+	color: 	#fff;
+	text-align: center;		
 }
 .footer{
 	position: absolute;
@@ -296,7 +285,7 @@ img{
 	.how__item{
 		width: 50%;
 	}
-	.how__title{
+	.title--h3{
 		margin: 0 auto;
 	}
 	.container{
@@ -340,9 +329,6 @@ img{
 		padding: 10px 0;
 	}
 	.burger{
-		display: block;
-	}
-	.container.about{
 		display: block;
 	}
 	.about__item{
