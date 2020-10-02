@@ -51,7 +51,7 @@ let cost;
 
 function summ(){
 	cost = +price * +quantityInput;
-	console.log(cost);
+	$('.cost').text(cost);
 }
 
 
