@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+</head>
+<body>
+	<form action="#">
+	<div class="model__inner">
+		<input class="input" type="hidden" name="model" id="model" value="Стандартная" data-sm="30" data-md="40" data-lg="50">
+		<div class="box">
+			<div class="box--checked">Стандартная</div>
+			<ul class="box__dropdown">
+				<li class="box__option" data-value="Стандартная" data-sm="30" data-md="40" data-lg="50">Стандартная</li>
+				<li class="box__option" data-value="Гардеробная" data-sm="50" data-md="75" data-lg="100">Гардеробная</li>
+				<li class="box__option" data-value="Круглая" data-sm="40" data-md="60" data-lg="80">Круглая</li>
+				<li class="box__option" data-value="Обувная" data-sm="25" data-md="40" data-lg="55">Обувная</li>
+			</ul>
+		</div>
+	</div>
+	<div class="box__inner">
+		<input class="input" type="hidden" name="size" id="size" value="Стандартная" data-size="md">
+		<div class="box">
+			<div class="box--checked">Стандартная</div>
+			<ul class="box__dropdown">
+				<li class="box__option" data-value="Стандартная" data-size="md">Стандартная</li>
+				<li class="box__option" data-value="Маленькая" data-size="sm">Маленькая</li>
+				<li class="box__option" data-value="Большая" data-size="lg">Большая</li>
+			</ul>
+		</div>
+	</div>
+	<div class="box__inner">
+		<input class="input" type="number" name="quantity" id="quantity" value="100">
+	</div>
+	<button class="form__btn" type="button">Заказать</button>
+	</form>
+	<div class="zakaz">
+		<p class="zakaz__text"></p>
+		<a class="zakaz__btn" href="#test-form">Отправить заказ</a>
+	</div>
+
+<!-- form itself -->
+<form id="test-form" class="mfp-hide white-popup-block form__popap">
+	<input type="hidden" name="project_name" value="Site Name">
+	<input type="hidden" name="admin_email" value="admin@mail.com">
+	<input type="hidden" name="form_subject" value="Form Subject">
+
+	<label for="name">Введите имя</label>
+	<input id="name" name="name" type="text"required><br>
+	<label for="email">Введите Email</label>
+	<input id="email" name="email" type="email" required><br>
+	<label for="phone">Введите телефон</label>
+	<input id="phone" name="phone" type="tel" required><br>
+	<label for="textarea">Ваш заказ</label>
+	<textarea id="textarea"><p class="zakaz__text">Вы хотите заказать <span class="value__model"></span><span class="value__size"></span> коробку в колличестве <span class="value__quantity"></span> шт.</p></textarea><br>
+	<button class="btn" type="submit">Send</button>
+</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="script.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
