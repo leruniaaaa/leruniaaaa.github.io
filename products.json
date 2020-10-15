@@ -1,0 +1,122 @@
+[
+  {
+    "type": "groats",
+    "name": "Пшенная крупа",
+    "calories": 342,
+    "proteins": 11.5,
+    "fats": 3.3,
+    "carbohydrates" : 66.5
+  },
+  {
+    "type": "groats",
+    "name": "Овсянкые хлопья, геркулес",
+    "calories": 352,
+    "proteins": 12.3,
+    "fats": 6.2,
+    "carbohydrates" : 61.8
+  }, 
+  {
+    "type": "groats",
+    "name": "Рис белый",
+    "calories": 333,
+    "proteins": 7,
+    "fats": 1,
+    "carbohydrates" : 74
+  },
+  {
+    "type": "fruit",
+    "name": "Яблоко",
+    "calories": 47,
+    "proteins": 0.4,
+    "fats": 0.4,
+    "carbohydrates" : 9.8
+  },
+  {
+    "type": "fruit",
+    "name": "Груша",
+    "calories": 47,
+    "proteins": 0.4,
+    "fats": 0.3,
+    "carbohydrates" : 10.3
+  },
+  {
+    "type": "fruit",
+    "name": "Банан",
+    "calories": 96,
+    "proteins": 1.5,
+    "fats": 0.5,
+    "carbohydrates" : 21
+  },
+  {
+    "type": "meat",
+    "name": "Куриное филе",
+    "calories": 113,
+    "proteins": 23.6,
+    "fats": 1.9,
+    "carbohydrates" : 0.4
+  },
+  {
+    "type": "meat",
+    "name": "Индейка филе",
+    "calories": 115,
+    "proteins": 22.6,
+    "fats": 1.9,
+    "carbohydrates" : 0.1
+  },
+  {
+    "type": "meat",
+    "name": "Телятина",
+    "calories": 90,
+    "proteins": 19.8,
+    "fats": 1.2,
+    "carbohydrates" : 0
+  },
+  {
+    "type": "vegetables",
+    "name": "Помидоры",
+    "calories": 14,
+    "proteins": 0.6,
+    "fats": 3.8,
+    "carbohydrates" : 1.9
+  },
+  {
+    "type": "vegetables",
+    "name": "Огурцы",
+    "calories": 11,
+    "proteins": 0.7,
+    "fats": 0.1,
+    "carbohydrates" : 4
+  },
+  {
+    "type": "vegetables",
+    "name": "Перец сладкий",
+    "calories": 27,
+    "proteins": 1.3,
+    "fats": 0.1,
+    "carbohydrates" : 5.3
+  },
+  {
+    "type": "fermented",
+    "name": "Йогурт нат (3,2)",
+    "calories": 68,
+    "proteins": 5,
+    "fats": 3.2,
+    "carbohydrates" : 3.5
+  },
+  {
+    "type": "fermented",
+    "name": "Кефир (2,5)",
+    "calories": 53,
+    "proteins": 2.9,
+    "fats": 2.5,
+    "carbohydrates" : 4
+  },
+  {
+    "type": "fermented",
+    "name": "Ряженка (2,5)",
+    "calories": 54,
+    "proteins": 2.9,
+    "fats": 2.5,
+    "carbohydrates" : 4.2
+  }
+]
