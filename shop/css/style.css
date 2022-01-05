@@ -589,6 +589,7 @@ body._pc .header__menu-item:hover .header__submenu-list {
 }
 /*hero*/
 .hero {
+	background-image: url('../images/hero-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
