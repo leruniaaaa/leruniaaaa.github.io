@@ -1,0 +1,1777 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="header__location">
+						<div class="header__location-overlay"></div>
+						<div class="header__location-string">
+							<input class="header__location-input" type="text" value="Ваш город Москва" readonly>
+							<svg class="header__location-icon">
+								<use xlink:href="arrow-down.svg"></use>
+							</svg>
+						</div>
+						<ul class="header__location-list">
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Москва" checked>
+									<span class="header__location-text">Москва</span>
+								</label>
+							</li>
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Питер">
+									<span class="header__location-text">Питер</span>
+								</label>
+							</li>
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Ростов">
+									<span class="header__location-text">Ростов</span>
+								</label>
+							</li>
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Воронеж">
+									<span class="header__location-text">Воронеж</span>
+								</label>
+							</li>
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Лондон">
+									<span class="header__location-text">Лондон</span>
+								</label>
+							</li>
+							<li class="header__location-unit">
+								<label class="header__location-label">
+									<input class="header__location-radio" type="radio" name="city" value="Нью-Йорк">
+									<span class="header__location-text">Нью-Йорк</span>
+								</label>
+							</li>
+						</ul>
+					</div>
+					<ul class="header__info-list">
+						<li class="header__info-unit">
+							<img class="header__info-icon" src="icons/address.svg" alt="#">
+							<a class="header__info-text" href="#">г. Москва, ул. Образцова 31 с2 оф 103</a>
+						</li>
+						<li class="header__info-unit">
+							<img class="header__info-icon" src="icons/time.svg" alt="#">
+							<span class="header__info-text">с 9 до 19, ежедневно</span>
+						</li>
+						<li class="header__info-unit">
+							<img class="header__info-icon" src="icons/mail.svg" alt="#">
+							<a class="header__info-text" href="mailto:info@domatlant.com">info@domatlant.com</a>
+						</li>
+						<li class="header__info-unit _phone">
+							<img class="header__info-icon" src="icons/phone.svg" alt="#">
+							<a class="header__info-text" href="tel:+74996476947">+7 (499) 647-69-47</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header__main">
+					<button class="header__burger-btn">
+						<span class="header__burger-line">Меню</span>
+					</button>
+					<a class="header__logo" href="#">
+						<img class="header__logo-img" src="images/logo.svg" alt="#">
+					</a>
+					<div class="header__note">
+						<p class="header__note-text">Проектируем и строим дома с 1991 г. по Московской области</p>
+					</div>
+					<div class="header__action">
+						<button class="header__action-btn _red">
+							<img class="header__action-icon" src="icons/calculator.svg" alt="#">
+							<span class="header__action-text">Рассчитать стоимость</span>
+						</button>
+						<button class="header__action-btn _yellow">
+							<img class="header__action-icon" src="icons/call.svg" alt="#">
+							<span class="header__action-text">Заказать звонок</span>
+						</button>
+					</div>
+					<ul class="header__act-list">
+						<li class="header__act-unit">
+							<a class="header__act-btn" href="mailto:info@domatlant.com">
+								<img class="header__act-icon" src="icons/mail.svg" alt="#">
+							</a>
+						</li>
+						<li class="header__act-unit">
+							<button class="header__act-btn">
+								<img class="header__act-icon" src="icons/phone.svg" alt="#">
+							</button>
+						</li>
+						<li class="header__act-unit">
+							<button class="header__act-btn">
+								<img class="header__act-icon" src="icons/calculator.svg" alt="#">
+							</button>
+						</li>
+					</ul>
+				</div>
+				<div class="header__menu">
+					<div class="header__menu-overlay"></div>
+					<div class="header__menu-wrapper">
+						<button class="header__close-btn">
+							<img class="header__close-icon" src="icons/close.svg" alt="#">
+						</button>
+						<nav class="header__menu-nav">
+							<ul class="header__menu-list">
+								<li class="header__menu-unit">
+									<div class="header__submenu">
+										<div class="header__submenu-overlay"></div>
+										<div class="header__submenu-inner">
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Быстровозводимые дома</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Каркасные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">SIP-панели</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Дома из блоков</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газобетонные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Дома из блоков</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплая керамики</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Арболит</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газосиликат</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Пеноблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Керамзитобетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Полистиролбетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплоблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="header__menu-btn">
+										<span class="header__menu-text">Проекты и цены</span>
+										<img class="header__menu-icon" src="icons/arrow-down.svg" alt="#">
+									</button>
+								</li>
+								<li class="header__menu-unit">
+									<div class="header__submenu">
+										<div class="header__submenu-overlay"></div>
+										<div class="header__submenu-inner">
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Быстровозводимые дома</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Каркасные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">SIP-панели</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Дома из блоков</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газобетонные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Дома из блоков</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплая керамики</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Арболит</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газосиликат</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Пеноблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Керамзитобетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Полистиролбетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплоблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="header__menu-btn">
+										<span class="header__menu-text">Услуги</span>
+										<img class="header__menu-icon" src="icons/arrow-down.svg" alt="#">
+									</button>
+								</li>
+								<li class="header__menu-unit">
+									<div class="header__submenu">
+										<div class="header__submenu-overlay"></div>
+										<div class="header__submenu-inner">
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Быстровозводимые дома</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Каркасные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">SIP-панели</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Дома из блоков</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газобетонные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Дома из блоков</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплая керамики</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Арболит</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газосиликат</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Пеноблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Керамзитобетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Полистиролбетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплоблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="header__menu-btn">
+										<span class="header__menu-text">Оплата</span>
+										<img class="header__menu-icon" src="icons/arrow-down.svg" alt="#">
+									</button>
+								</li>
+								<li class="header__menu-unit">
+									<a class="header__menu-link" href="#">Портфолио</a>
+								</li>
+								<li class="header__menu-unit">
+									<a class="header__menu-link" href="#">отзывы</a>
+								</li>
+								<li class="header__menu-unit">
+									<a class="header__menu-link" href="#">Акции</a>
+								</li>
+								<li class="header__menu-unit">
+									<a class="header__menu-link" href="#">О компании</a>
+								</li>
+								<li class="header__menu-unit">
+									<a class="header__menu-link" href="#">Контакты</a>
+								</li>
+								<li class="header__menu-unit">
+									<div class="header__submenu">
+										<div class="header__submenu-overlay"></div>
+										<div class="header__submenu-inner">
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Быстровозводимые дома</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Каркасные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">SIP-панели</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="header__submenu-item">
+												<p class="header__submenu-name">Дома из блоков</p>
+												<ul class="header__submenu-list">
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газобетонные</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Дома из блоков</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплая керамики</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Арболит</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Газосиликат</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Пеноблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Керамзитобетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Полистиролбетон</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+													<li class="header__submenu-unit">
+														<a class="header__submenu-link" href="#">Теплоблок</a>
+														<button class="header__submenu-btn">
+															<img class="header__submenu-icon" src="icons/arrow-right.svg" alt="#">
+														</button>
+														<ul class="header__dropmenu-list">
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газобетонные</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Дома из блоков</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплая керамики</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Арболит</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Газосиликат</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Пеноблок</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Керамзитобетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Полистиролбетон</a>
+															</li>
+															<li class="header__dropmenu-unit">
+																<a class="header__dropmenu-link" href="#">Теплоблок</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<button class="header__menu-btn">
+										<span class="header__menu-text">Еще</span>
+										<img class="header__menu-icon" src="icons/arrow-down.svg" alt="#">
+									</button>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main"></main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+</html>
