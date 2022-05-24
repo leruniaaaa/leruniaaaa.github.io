@@ -433,18 +433,34 @@
 		transform: scale(1.5) translate(0, -25%);
 		transform-origin: top right;
 	}
-	.hero__coin-item:nth-child(1), {
-		left: 0%;
-	}
-	.hero__coin-item:nth-child(6) {
-		left: 10%;
-	}
-	.hero__coin-item:nth-child(3) {
-		left: 5%;
-	}
-	.hero__coin-item:nth-child(8) {
-		left: 15%;
-	}
+	.hero__coin-item:nth-child(1),
+.hero__coin-item:nth-child(5) {
+	left: 20%;
+	top: -2%;
+	width: 10rem;
+	height: 10rem;
+}
+.hero__coin-item:nth-child(2),
+.hero__coin-item:nth-child(6) {
+	left: 60%;
+	top: 2%;
+	width: 12rem;
+	height: 12rem;
+}
+.hero__coin-item:nth-child(3),
+.hero__coin-item:nth-child(7) {
+	top: 7%;
+	left: 40%;
+	width: 8rem;
+	height: 8rem;
+}
+.hero__coin-item:nth-child(4),
+.hero__coin-item:nth-child(8) {
+	top: 10%;
+	left: 15%;
+	width: 14rem;
+	height: 14rem;
+}
 }
 .release {
 	padding: 5rem 0 0;
