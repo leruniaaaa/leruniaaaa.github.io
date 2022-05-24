@@ -1158,12 +1158,8 @@
 	.about {
 		display: flex;
 		flex-direction: column-reverse;
-		background: none;
-	}
-	.about__bg {
-		display: block;
-		width: 75%;
-		margin: 0 0 0 auto;
+		background-size: 75% auto;
+		background-position: center right;
 	}
 	.about__title {
 		font-size: 15rem;
