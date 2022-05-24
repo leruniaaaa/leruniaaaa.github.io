@@ -998,7 +998,7 @@
 .team__info-text {
 	width: 50%;
 	padding: 0 0 3rem;
-	margin: 0 0 0 45%;
+	margin: 0 5rem 0 auto;
 	font-size: 20px;
 	line-height: 150%;
 	letter-spacing: 0.01em;
@@ -1034,6 +1034,7 @@
 		font-size: 24px;
 	}
 	.team__info-text {
+		margin: 0;
 		width: 100%;
 	}
 	.team__info-text:first-child {
