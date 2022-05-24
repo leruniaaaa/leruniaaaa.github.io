@@ -981,6 +981,7 @@
 }
 .team__info-text {
 	width: 50%;
+	max-width: 550px;
 	padding: 0 0 3rem;
 	margin: 0 5rem 0 auto;
 	font-size: 20px;
