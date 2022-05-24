@@ -954,18 +954,18 @@
 }
 .team__info-btn {
 	position: relative;
-	display: block;
+	display: flex;
 	width: 100%;
 	padding: 0 4rem 0 0;
 	text-align: left;
-	font-size: 7.5rem;
 }
 .team__info-name {
-	display: block;
+	width: 100%;
 	font-family: 'TT Octosquares Compressed';
 	font-style: italic;
+	padding: 0 0 1rem;
 	font-size: 7.5rem;
-	line-height: 100%;
+	line-height: 8.5rem;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
 	background: linear-gradient(241.25deg, #F9D549 21.54%, #FFFFFF 35.35%, #B1B3B2 58.93%, #F9F9F9 90.86%), linear-gradient(110.21deg, #A5A5A5 12.81%, #F9F9F9 63.45%);
@@ -976,16 +976,19 @@
 }
 .team__info-btn::after {
 	position: absolute;
-	top: 0;
-	right: 0;
-	content: '+';
-	width: 4rem;
-	height: 4rem;
-	font-size: 4rem;
-	line-height: 4rem;
-	color: #F9D549;
-	text-align: right;
-	transition: all .3s ease;
+    top: 1rem;
+    right: 0;
+    content: '+';
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #F9D549;
+    text-align: right;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .team__info-unit._active .team__info-btn::after {
 	content: '-';
@@ -1016,11 +1019,15 @@
 	.team__info-btn {
 		padding: 0 24px 0 0;
 	}
+	.team__info-name {
+		font-size: 10rem;
+    line-height: 11rem;
+	}
 	.team__info-btn::after {
-		width: 24px;
-		height: 24px;
-		font-size: 24px;
-		line-height: 24px;
+		width: 8rem;
+    height: 8rem;
+    font-size: 8rem;
+    line-height: 8rem;
 	}
 }
 @media(max-width: 576px) {
@@ -1031,7 +1038,14 @@
 		width: 25rem;
 	}
 	.team__info-name {
-		font-size: 24px;
+		font-size: 12rem;
+    line-height: 13rem;
+	}
+	.team__info-btn::after {
+		width: 10rem;
+    height: 10rem;
+    font-size: 10rem;
+    line-height: 10rem;
 	}
 	.team__info-text {
 		margin: 0;
@@ -1257,13 +1271,11 @@
 	text-transform: uppercase;
 }
 .advantages__text {
+	margin: 0 0 25px;
 	max-width: 520px;
 	font-size: 20px;
 	line-height: 130%;
 	letter-spacing: 0.01em;
-}
-.advantages__text + .advantages__text {
-	margin: 0 0 25px;
 }
 .advantages__list {
 	max-width: 620px;
